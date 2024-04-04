@@ -3,7 +3,17 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Floor
+  - Table
+  - IngredientBox
+  - FryingPan
+  - Pot
+  - CuttingBoard
+  - Sink
+  - TrashCan
+  - FoodOutlet
+  - Bowl
   layers:
   - Default
   - TransparentFX
