@@ -47,6 +47,42 @@ public class MapManager : MonoBehaviour
                     mapObject.transform.parent = GameObject.Find("Maps").transform;
                     mapObject.gameObject.name = mapObject.tag + $"( {j}, {i} )";
                     mapObject.transform.localPosition = new Vector3(j, 0, -i);
+
+                    switch (mapObject.tag)
+                    {
+                        case "Table":
+
+                            break;
+                        case "IngredientBox":
+
+                            break;
+                        case "FryingPan":
+                            // Rotate
+
+                            break;
+                        case "Pot":
+                            // Rotate
+
+                            break;
+                        case "CuttingBoard":
+                            // Rotate
+
+                            break;
+                        case "Sink":
+                            // Rotate
+
+                            break;
+                        case "TrashCan":
+
+                            break;
+                        case "FoodOutlet":
+                            // Rotate
+
+                            break;
+                        case "Bowl":
+
+                            break;
+                    }
                 }
             }
         }
